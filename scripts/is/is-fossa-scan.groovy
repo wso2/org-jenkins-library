@@ -114,7 +114,7 @@ def getLatestISBuild() {
 
     sh """
         cp modules/distribution/target/*.zip . 
-        rm -rf modules org.wso2.is
+        rm -rf modules org.wso2.is target
     """
 }
 
